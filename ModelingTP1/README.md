@@ -16,7 +16,7 @@
 
 ### Personne papyrus diagramme & la machine à états associée
   
-![EXstateMachinePersonne](https://raw.github.com/KourdacheHoussam/ModelingTP1/blob/master/ModelingTP1/resource/EXstateMachinePersonne.png) 
+![EXstateMachinePersonne](KourdacheHoussam.github.com/ModelingTP1/blob/master/ModelingTP1/resource/EXstateMachinePersonne.png) 
 
 
 
