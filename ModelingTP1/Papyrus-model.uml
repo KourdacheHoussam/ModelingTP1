@@ -17,7 +17,7 @@
     </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:StateMachine" xmi:id="_vlpNkIN8EeS9UNJzWkrD3A" name="MyStateMachine" specification="_rYv2cHpUEeS3mKmuOCgw9A" submachineState="_NopcQIN_EeS9UNJzWkrD3A">
-    <region xmi:id="_2tJmUIN9EeS9UNJzWkrD3A" name="MyRegion">
+    <region xmi:id="_2tJmUIN9EeS9UNJzWkrD3A" name="PersonneX">
       <transition xmi:id="_WNQFIIOAEeS9UNJzWkrD3A" name="naissance" redefinedTransition="_WNQFIIOAEeS9UNJzWkrD3A" source="_aa5mwIN_EeS9UNJzWkrD3A" target="_NopcQIN_EeS9UNJzWkrD3A"/>
       <transition xmi:id="_fovIIIOAEeS9UNJzWkrD3A" name="setMajeur" guard="_i2v8QIOAEeS9UNJzWkrD3A" source="_NopcQIN_EeS9UNJzWkrD3A" target="_VMBuIIN_EeS9UNJzWkrD3A">
         <ownedRule xmi:id="_i2v8QIOAEeS9UNJzWkrD3A" constrainedElement="_rYv2cHpUEeS3mKmuOCgw9A"/>
@@ -25,7 +25,7 @@
       <transition xmi:id="_jE3l4IOCEeS9UNJzWkrD3A" name="setVieux" guard="_nc8ZYIOCEeS9UNJzWkrD3A" source="_VMBuIIN_EeS9UNJzWkrD3A" target="_XEu8MIN_EeS9UNJzWkrD3A">
         <ownedRule xmi:id="_nc8ZYIOCEeS9UNJzWkrD3A" name="" constrainedElement="_rYv2cHpUEeS3mKmuOCgw9A"/>
       </transition>
-      <transition xmi:id="_DSYPMIODEeS9UNJzWkrD3A" name="mort" guard="_QCqOUIOEEeS9UNJzWkrD3A" source="_XEu8MIN_EeS9UNJzWkrD3A" target="_f1aHoIN_EeS9UNJzWkrD3A">
+      <transition xmi:id="_DSYPMIODEeS9UNJzWkrD3A" name="setMort" guard="_QCqOUIOEEeS9UNJzWkrD3A" source="_XEu8MIN_EeS9UNJzWkrD3A" target="_f1aHoIN_EeS9UNJzWkrD3A">
         <ownedRule xmi:id="_QCqOUIOEEeS9UNJzWkrD3A" name="" constrainedElement="_rYv2cHpUEeS3mKmuOCgw9A"/>
       </transition>
       <subvertex xmi:type="uml:State" xmi:id="_NopcQIN_EeS9UNJzWkrD3A" name="Mineur" submachine="_vlpNkIN8EeS9UNJzWkrD3A"/>
