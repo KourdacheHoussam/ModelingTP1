@@ -14,4 +14,12 @@
             genModel="Papyrus-model.genmodel"/>
    </extension>
 
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated default -->
+      <package
+            uri="http://org/eclipse/machine/etats"
+            class="machinetats.MachinetatsPackage"
+            genModel="model/default.genmodel"/>
+   </extension>
+
 </plugin>
