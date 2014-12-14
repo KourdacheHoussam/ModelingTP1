@@ -15,6 +15,23 @@
 	- Utilisation du plugin PAPYRUS pour la création des disgrammes UML		   
 
 ### Personne papyrus diagramme & la machine à états associée
-![altText](EXstateMachinePersonne.png "title") 
+  
+![EXstateMachinePersonne](resource/EXstateMachinePersonne.png "EXstateMachinePersonne") 
 
-&copy; Houssam KOURDACHE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&copy; 2014 Houssam KOURDACHE
