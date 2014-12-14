@@ -12,4 +12,4 @@
 	- savoir affecter les cardinalités aux classes (propriétés des classes sont fournies 
 		dans la vue Propriete d'eclipse).
 		
-		
+	- Utilisation du plugin PAPYRUS pour la création des disgrammes UML		

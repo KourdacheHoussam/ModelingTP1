@@ -1,30 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
-<org.eclipse.machine.etats:Machine
-    xmi:version="2.0"
-    xmlns:xmi="http://www.omg.org/XMI"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:org.eclipse.machine.etats="http://org/eclipse/machine/etats"
-    xsi:schemaLocation="http://org/eclipse/machine/etats default.ecore"
-    name="MachineOne">
-  <operations
-      name="OpOne"/>
-  <etats name="EtatOne"
-      incoming="//@transitions.0"
-      outgoing="//@transitions.0"/>
-  <etats name="EtatTwo"
-      incoming="//@transitions.1"/>
-  <transitions
-      name="TransitionOne"
-      source="//@etats.0"
-      cible="//@etats.1">
-    <events
-        operations="//@operations"/>
+<org.eclipse.machine.etats:Machine xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.machine.etats="http://org/eclipse/machine/etats" xsi:schemaLocation="http://org/eclipse/machine/etats default.ecore" name="MachineOne">
+  <operations name="OpOne"/>
+  <etats name="EtatOne" incoming="//@transitions.0" outgoing="//@transitions.0"/>
+  <etats name="EtatTwo" incoming="//@transitions.1"/>
+  <transitions name="TransitionOne" source="//@etats.0" cible="//@etats.1">
+    <events operations="//@operations"/>
   </transitions>
-  <transitions
-      name="TransitionTwo"
-      source="//@etats.1"
-      cible="//@etats.0">
-    <events
-        operations="//@operations"/>
+  <transitions name="TransitionTwo" source="//@etats.1" cible="//@etats.0">
+    <events operations="//@operations"/>
   </transitions>
 </org.eclipse.machine.etats:Machine>
